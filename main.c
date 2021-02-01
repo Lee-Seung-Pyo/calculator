@@ -42,12 +42,7 @@ int add(int number1, int number2)
  
 int sub(int number1, int number2)
 {
-	int result = 0;
-
-	if(number1 - number2 > 0) result = number1 - number2;
-	else result = number2 - number1;
-
-	return 0;
+	return number1 - number2;
 }
  
 int multi(int number1, int number2)
